@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sPSPHostPorts
+kind: K8sPSPHostPid
 metadata:
-  name: psp-host-ports
+  name: psp-host-pid
 spec:
   match:
     kinds:
