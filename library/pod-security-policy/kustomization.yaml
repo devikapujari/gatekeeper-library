@@ -2,15 +2,12 @@ resources:
   - allow-privilege-escalation
   - apparmor
   - capabilities
-  - flexvolume-drivers
-  - forbidden-sysctls
   - fsgroup
-  - host-filesystem
-  - host-namespaces
   - host-network-ports
+  - host-Ports
+  - host-ipc
+  - host-PID
   - privileged-containers
-  - proc-mount
-  - read-only-root-filesystem
   - seccomp
   - selinux
   - users
