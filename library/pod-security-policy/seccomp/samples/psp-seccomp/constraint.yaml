@@ -8,6 +8,5 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
   parameters:
-    allowedProfiles:
-    - runtime/default
-    - docker/default
+    allowedProfiles:        
+    - "*"
