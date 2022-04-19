@@ -4,6 +4,8 @@ resources:
   - capabilities
   - fsgroup
   - host-network-ports
+  - host-filesystem
+  - host-namespaces
   - privileged-containers
   - seccomp
   - selinux
