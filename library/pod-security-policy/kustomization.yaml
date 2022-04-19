@@ -4,9 +4,6 @@ resources:
   - capabilities
   - fsgroup
   - host-network-ports
-  - host-Ports
-  - host-ipc
-  - host-PID
   - privileged-containers
   - seccomp
   - selinux
