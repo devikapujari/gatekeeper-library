@@ -1,0 +1,8 @@
+kind: Suite
+apiVersion: test.gatekeeper.sh/v1alpha1
+metadata:
+  name: allow-privilege-escalation
+tests:
+  - name: allow-privilege-escalation
+    template: template.yaml
+    constraint: samples/psp-allow-privilege-escalation-container/constraint.yaml
