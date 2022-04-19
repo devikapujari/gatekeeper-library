@@ -1,0 +1,8 @@
+kind: Suite
+apiVersion: test.gatekeeper.sh/v1alpha1
+metadata:
+  name: host-filesystem
+tests:
+  - name: host-filesystem
+    template: template.yaml
+    constraint: samples/psp-host-filesystem/constraint.yaml
